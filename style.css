@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat' , sans-serif;
+}
+.homepage {
+    background: url(img/min.jpg)100%;
+    height: 700px;
+}
+.header {
+    display: flex;
+    padding: 20px 0px;
+}
+
+.logo {
+    width: 50%;
+    color: rgb(255,255, 255);
+    display: flex;
+    letter-spacing: 5px;
+    align-items: center;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.last {
+    color: rgb(234, 0, 255);
+}
+.menu{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 550px;
+    padding-top: 10px;
+}
+.menu ul {
+    list-style: none;
+    word-spacing: 20px;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+}
+
+.menu a:hover{
+    color: rgb(234, 0, 255);
+    transition: .4s;
+}
+.header, .menu {
+    padding-top: 20px;
+}
+.home {
+    height: 500px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content h1, h2, h3{
+    color: rgb(255,255, 255);
+    letter-spacing: 5px;
+}
+
+.content h2 {
+    padding-left: 120px;
+    font-size: 35px;
+}
+
+.content h3 {
+    font-size: 11px;
+    padding-left: 110px;
+}
+
+.about {
+    display: grid;
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid linear-gradient(to bottom right, hsl(254, 76%, 52%), rgb(228, 102, 192));;
+    background: linear-gradient(to bottom right, hsl(254, 76%, 52%), rgb(228, 102, 192));;
+    padding: 10px;
+    margin: 5px solid;
+    width: auto;
+    height: 500px;
+}
+
+.profile {
+    display: flex;
+    width: 48%;
+    height: 400px;
+    margin-top: 50px;
+    background: linear-gradient(to bottom right, hsl(254, 76%, 52%), rgb(228, 102, 192));;
+    box-shadow: inset 5px 5px 12px rgb(0,0,0,0.16), 5px 5px 12px rgb(26, 1, 29);
+    
+}
+.text-profile {
+    padding: 20px;
+    display: inline;
+    width: 500px;
+    height: 100px;
+    justify-items: space-around;
+    align-items: center;
+}
+.text-profile h4 {
+    width: 350px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+
+.grid-profile {
+    display: grid;
+    height: 100%;
+    height: auto;
+}
+.skills {
+    padding: 20px;
+    margin-bottom: 250px;
+}
+
+.ph-profile {
+    padding: 20px;
+    width: 110px;
+    height: 110px;
+    border-radius: 100px;
+}
+
+.text-about {
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    letter-spacing: 2px;
+    width: 48%;
+    height: 400px;
+    margin-top: 50px;
+    background: linear-gradient(to bottom right, hsl(254, 76%, 52%), rgb(228, 102, 192));;
+    box-shadow: inset 5px 5px 12px rgb(0,0,0,0.16), 5px 5px 12px rgb(26, 1, 29);
+}
+.text-about h3 {
+    padding: 20px;
+}
+.text-about p{
+    padding: 20px;
+}
+.skills .bar {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    width: 100%;
+    height: 20px;
+    background-color: #fff;
+}
+.bar, .value {
+    height: 20px;
+    background-color: #4e414a;
+    display: inline-block;
+    color: #fff;
+    align-items: center;
+}
+
+.html {
+    width: 50%;
+}
+.css {
+    width: 50%;
+}
+.cpp {
+    width: 50%;
+}
+.ph {
+    width: 50%;
+}
+
+.skills h4 {
+    color: rgb(255,255, 255);
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+
+.card-galery {
+    background: linear-gradient(to bottom right, hsl(254, 76%, 52%), rgb(228, 102, 192));;
+    padding: 20px 0px;
+    width: 100%;
+    height: 350px;
+}
+
+.title-galery h2{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.content-galery {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    border: 10px solid rgb(206, 206, 206);
+    border-radius: 5px;
+    height: 200px;
+}
+.box-content{
+    border-radius: 5px;
+    width: 170px;
+    height: 150px;
+    box-shadow: inset 5px 5px 12px rgb(0,0,0,0.16), 5px 5px 12px rgb(150, 14, 165);
+}
+
+.ph-galery {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.card-service {
+    background: linear-gradient(to bottom right, hsl(254, 76%, 52%), rgb(228, 102, 192));;
+    padding: 20px 0px;
+    width: 100%;
+    height: 450px;
+}
+.service-box{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    height: 350px;
+}
+.title-service h2{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin: 30px auto;
+    text-align: center;
+}
+.list-service {
+    border-radius: 3px;
+    width: 250px;
+    height: 280px;
+    background: linear-gradient(to bottom right, hsl(240, 89%, 33%), rgb(238, 34, 180));;
+    box-shadow: inset 5px 5px 12px rgb(0,0,0,0.16), 5px 5px 12px rgb(148, 2, 111);
+}
+
+.ph-service {
+    width: 100px;
+    height: 100px;
+    margin-left: 22%;
+    border-radius: 100px;
+    padding: 20px;
+}
+
+.text-service h3 {
+    font-size: 14px;
+    text-align: center;
+}
+
+.text-service p {
+    font-size: 11px;
+    color: #fff;
+    line-height: 15px;
+    text-align: justify;
+    letter-spacing: 1px;
+    padding-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer {
+    background: linear-gradient(to bottom right, hsl(240, 89%, 33%), rgb(238, 34, 180));;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.footer-content h2{
+    text-align: center;
+}
+.footer-content p {
+    text-align: center;
+    color: #ddd;
+    letter-spacing: 3px;
+    padding-top: 3px;
+}
+.social {
+    color: #ddd;
+}
+.medsos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    list-style: none;
+    width: 100%;
+}
+
+.medsos li a i{
+    margin: 0 20px;
+    color: #ddd;
+    font-size: 25px;
+}
+
+.footer-bottom {
+    text-align: center;
+    color: #ddd;
+    background-color: #c01094;
+    height: 25px;
+    padding-top: 15px;
+}
